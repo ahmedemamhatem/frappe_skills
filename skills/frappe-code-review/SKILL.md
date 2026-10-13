@@ -15,7 +15,7 @@ description: Structured code review for Frappe/ERPNext + React pull requests —
 4. **Check tests exist** for new behaviour and for the bug being fixed.
 5. **Write the report** in the format at the end.
 
-If the `frappe-decision-ladder` skill is installed, also run its "is this code necessary / is there a config option" pass.
+Also run the `frappe-config-first` pass: could any new code have been configuration or a built-in?
 
 ## Checklist
 

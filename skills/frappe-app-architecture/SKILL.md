@@ -84,7 +84,7 @@ my_app/
 | Change a method of a standard DocType | `override_doctype_class` | subclass the original, call `super()`; only one app can win — document it |
 | Replace a whitelisted API | `override_whitelisted_methods` | last resort |
 | Extend list/form JS | `doctype_js`, `doctype_list_js` | |
-| Add permission logic | `permission_query_conditions`, `has_permission` hooks | see FrappeForge `frappe-core-permissions` |
+| Add permission logic | `permission_query_conditions`, `has_permission` hooks | see `frappe-security` and its `references/permissions-api.md` |
 
 Fixtures in `hooks.py`:
 
